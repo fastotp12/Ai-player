@@ -12,7 +12,7 @@ const anthropic = new Anthropic({ apiKey: process.env.CLAUDE_API_KEY });
 const serverConfig = {
   host: "46.224.7.62",
   port: 25871,
-  version: "1.20.1" // আপনার সার্ভারের মেইন ভার্সন অনুযায়ী পরিবর্তন করতে পারেন
+  // version কেটে দেওয়া হয়েছে যাতে বট নিজে থেকে সার্ভার ভার্সন ডিটেক্ট করতে পারে
 };
 
 // ১. Gemini Bot তৈরি
