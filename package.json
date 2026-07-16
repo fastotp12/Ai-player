@@ -6,11 +6,12 @@
   "scripts": {
     "start": "node index.js"
   },
-  "dependencies": {
+    "dependencies": {
     "@anthropic-ai/sdk": "^0.32.0",
-    "@google/genai": "^0.1.1",
+    "@google/genai": "^1.0.0",
     "dotenv": "^16.4.5",
     "mineflayer": "^4.20.0"
   }
+
 }
 
